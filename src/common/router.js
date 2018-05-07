@@ -75,8 +75,26 @@ export const getRouterData = app => {
     '/dashboard/airflow': {
       component: dynamicWrapper(app, [], () => import('../routes/Dashboard/Airflow')),
     },
-    '/dashboard/grafana': {
+    '/dashboard/grafana/dashboard-manager': {
+      component: dynamicWrapper(app, [], () => import('../routes/Dashboard/GrafanaDashboardManager')),
+    },
+    '/dashboard/grafana/home': {
       component: dynamicWrapper(app, [], () => import('../routes/Dashboard/Grafana')),
+    },
+    '/dashboard/grafana/dashboard-new': {
+      component: dynamicWrapper(app, [], () => import('../routes/Dashboard/GrafanaDashboardNew')),
+    },
+    '/dashboard/grafana/dashboard-new-folder': {
+      component: dynamicWrapper(app, [], () => import('../routes/Dashboard/GrafanaDashboardNewFolder')),
+    },
+    '/dashboard/grafana/dashboard-import': {
+      component: dynamicWrapper(app, [], () => import('../routes/Dashboard/GrafanaDashboardImport')),
+    },
+    '/dashboard/grafana/alerts': {
+      component: dynamicWrapper(app, [], () => import('../routes/Dashboard/GrafanaAlert')),
+    },
+    '/dashboard/grafana/datasources': {
+      component: dynamicWrapper(app, [], () => import('../routes/Dashboard/GrafanaDataSource')),
     },
     '/dashboard/kubernetes': {
       component: dynamicWrapper(app, [], () => import('../routes/Dashboard/Kubernetes')),

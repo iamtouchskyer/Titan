@@ -15,6 +15,33 @@ const menuData = [
       {
         name: '模型服务监控',
         path: 'grafana',
+        children: [
+
+          {
+            name: '首页',
+            path: 'home',
+          },
+          {
+            name: '仪表盘管理',
+            path: 'dashboard-manager',
+          },
+          {
+            name: '创建仪表盘',
+            path: 'dashboard-new',
+          },
+          {
+            name: '导入仪表盘',
+            path: 'dashboard-import',
+          },
+          {
+            name: 'Alert管理',
+            path: 'alerts',
+          },
+          {
+            name: '数据源管理',
+            path: 'datasources',
+          },
+        ],
       },
       {
         name: '集群监控',
