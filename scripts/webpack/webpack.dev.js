@@ -28,6 +28,7 @@ const entries = HOT ? {
     app: './public/app/index.ts',
     dark: './public/sass/grafana.dark.scss',
     light: './public/sass/grafana.light.scss',
+    titan: './public/sass/grafana.titan.scss',
     vendor: require('./dependencies'),
   };
 

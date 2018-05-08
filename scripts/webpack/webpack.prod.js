@@ -15,6 +15,7 @@ module.exports = merge(common, {
   entry: {
     dark: './public/sass/grafana.dark.scss',
     light: './public/sass/grafana.light.scss',
+    titan: './public/sass/grafana.titan.scss',
     vendor: require('./dependencies'),
   },
 

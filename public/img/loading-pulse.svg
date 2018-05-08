@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="25" height="25" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" stroke="#f7941d" class="puff">
+<svg width="25" height="25" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" stroke="#61c2f2" class="puff">
     <g fill="none" fill-rule="evenodd" stroke-width="3"> 
         <circle cx="22" cy="22" r="1">
             <animate attributeName="r"

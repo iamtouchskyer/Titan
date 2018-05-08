@@ -100,11 +100,10 @@ $input-border: 1px solid $input-border-color;
   font-weight: $font-weight-semi-bold;
   font-size: $font-size-sm;
 
-  background-color: $input-label-bg;
+  color: $black;
+  background-color: $white;
   display: block;
 
-  border: $input-btn-border-width solid $input-label-border-color;
-  border-right: none;
   border-radius: $label-border-radius;
 
   &--grow {
@@ -114,6 +113,10 @@ $input-border: 1px solid $input-border-color;
 
   &--error {
     color: $critical;
+  }
+
+  &:hover {
+    background-color: $gray-7;
   }
 
   &:disabled {

@@ -111,10 +111,15 @@
   font-weight: $btn-font-weight;
   padding: 6px 11px;
   line-height: 16px;
-  color: $text-muted;
+  color: $brand-primary;
   border: 1px solid $navbar-button-border;
   margin-right: 3px;
   white-space: nowrap;
+
+  &:hover {
+    background-color: $brand-primary;
+    color: $white;
+  }
 
   .gicon {
     font-size: 16px;

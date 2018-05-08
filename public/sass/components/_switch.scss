@@ -58,26 +58,26 @@
 
     input + label::after {
       @include buttonBackground($input-bg, lighten($input-bg, 5%));
-      color: lighten($orange, 10%);
+      color: lighten($blue, 10%);
       text-shadow: $text-shadow-strong;
     }
   }
 
   input + label::before {
-    font-family: "FontAwesome";
-    content: "\f096"; // square-o
-    color: $text-color-weak;
+    font-family: 'FontAwesome';
+    content: '\f096'; // square-o
+    color: $btn-primary-bg;
     transition: transform 0.4s;
     backface-visibility: hidden;
     text-shadow: $text-shadow-faint;
   }
 
   input + label::after {
-    content: "\f046"; // check-square-o
-    color: $orange;
+    content: '\f046'; // check-square-o
+    color: $blue;
     text-shadow: $text-shadow-strong;
 
-    font-family: "FontAwesome";
+    font-family: 'FontAwesome';
     transition: transform 0.4s;
     transform: rotateY(180deg);
     backface-visibility: hidden;

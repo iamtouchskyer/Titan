@@ -45,7 +45,7 @@ var template = `
 <form name="ctrl.prefsForm" class="section gf-form-group">
   <h3 class="page-heading">Preferences</h3>
 
-  <div class="gf-form">
+  <div class="gf-form" style="display:none">
     <span class="gf-form-label width-11">UI Theme</span>
     <div class="gf-form-select-wrapper max-width-20">
       <select class="gf-form-input" ng-model="ctrl.prefs.theme" ng-options="f.value as f.text for f in ctrl.themes"></select>
