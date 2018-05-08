@@ -29,11 +29,14 @@ the latest master builds [here](https://grafana.com/grafana/download)
 
 ### Building the backend
 ```bash
-go get github.com/grafana/grafana
+go get github.com/iamtouchskyer/titan-grafana
 cd $GOPATH/src/github.com/grafana/grafana
 go run build.go setup
 go run build.go build
 ```
+
+### Launching server
+./bin/grafana-server
 
 ### Building frontend assets
 
