@@ -4723,18 +4723,18 @@ a.label:focus {
   top: -1px;
 }
 .label-default {
-  background-color: #255e91;
+  background-color: #6d89cb;
 }
 .label-default[href]:hover,
 .label-default[href]:focus {
-  background-color: #5e5e5e;
+  background-color: #255e91;
 }
 .label-primary {
   background-color: #6d89cb;
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #002e33;
+  background-color: #255e91;
 }
 .label-success {
   background-color: #3fb34f;
